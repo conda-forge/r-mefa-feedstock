@@ -47,8 +47,8 @@ about:
     plotting, summary and reporting of `mefa' objects. Reports can be generated in plain
     text or LaTeX format. Vignette contains worked examples.
   license_family: GPL2
-  license_file: '{{ environ["PREFIX"] }}\/lib\/R\/share\/licenses\/GPL-2'  # [unix]
-  license_file: '{{ environ["PREFIX"] }}\R\share\licenses\GPL-2'  # [win]
+  license_file: '{{ environ["PREFIX"] }}\/lib\/R\/share\/licenses\/GPL-2'
+
 extra:
    recipe-maintainers:
     - MathiasHaudgaard
