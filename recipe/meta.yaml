@@ -16,8 +16,8 @@ source:
   sha256: b23a912c0623eab9e8c9da78e4c257373512ca797d8db78cf707a3e147332ee3
 
 build:
-  number: 0
-  skip: true  # [win32]
+  noarch: generic
+  number: 1000
 
   rpaths:
     - lib/R/lib/
@@ -48,7 +48,6 @@ about:
     text or LaTeX format. Vignette contains worked examples.
   license_family: GPL2
   license_file: '{{ environ["PREFIX"] }}\/lib\/R\/share\/licenses\/GPL-2'  # [unix]
-  license_file: '{{ environ["PREFIX"] }}\R\share\licenses\GPL-2'  # [win]
 extra:
    recipe-maintainers:
     - MathiasHaudgaard
