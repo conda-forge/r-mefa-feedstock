@@ -8,11 +8,9 @@ package:
   version: {{ version|replace("-", "_") }}
 
 source:
-  fn: mefa_{{ version }}.tar.gz
   url:
     - https://cran.r-project.org/src/contrib/mefa_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/mefa/mefa_{{ version }}.tar.gz
-
   sha256: aa149f710bfe510403fe052e5add294b22a797a734cef1e935f1f006e61ef829
 
 build:
