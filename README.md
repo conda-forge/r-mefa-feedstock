@@ -3,7 +3,7 @@ About r-mefa
 
 Home: https://cran.r-project.org/web/packages/mefa/index.html
 
-Package license: GPL-2
+Package license: GPL-2.0-only
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mefa-feedstock/blob/master/LICENSE.txt)
 
@@ -118,9 +118,5 @@ Feedstock Maintainers
 * [@ArneKr](https://github.com/ArneKr/)
 * [@FrodePedersen](https://github.com/FrodePedersen/)
 * [@MathiasHaudgaard](https://github.com/MathiasHaudgaard/)
-* [@bgruening](https://github.com/bgruening/)
 * [@conda-forge/r](https://github.com/conda-forge/r/)
-* [@daler](https://github.com/daler/)
-* [@jdblischak](https://github.com/jdblischak/)
-* [@johanneskoester](https://github.com/johanneskoester/)
 
