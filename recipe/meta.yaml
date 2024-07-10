@@ -1,6 +1,5 @@
 {% set version = "3.2-9" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-mefa
@@ -13,8 +12,7 @@ source:
   sha256: 0cd1fc1f9564efba48b08235b8f0cf02aee267fb45290558501aa3206e9f94e6
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
