@@ -1,4 +1,4 @@
-{% set version = "3.2-9" %}
+{% set version = "3.2-10" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/mefa_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/mefa/mefa_{{ version }}.tar.gz
-  sha256: 0cd1fc1f9564efba48b08235b8f0cf02aee267fb45290558501aa3206e9f94e6
+  sha256: f8466e6fe96057abe91a2da7b153325f141e450340a79b3b92d9e040aa1f98ed
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
